@@ -2,9 +2,10 @@ package org.multipaz.backend.server
 
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
+import org.multipaz.server.ServerConfiguration
 
 /**
- * Main entry point to launch the server.
+ * Main entry point to launch the Multipaz back-end server.
  *
  * Build and start the server using
  *
